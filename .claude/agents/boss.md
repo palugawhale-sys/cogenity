@@ -58,7 +58,12 @@ Format:
 Address discretion: the postal address is the owner's home. It appears **only** in the email footer, which the law requires. Never put it on a site, in a document, in a reply body, or anywhere else, and never share it with anyone for any other purpose.
 
 Sending rules:
-- At most 10 new businesses per day, and one follow-up at most, no sooner than 7 days after the first email.
+- **Daily volume.** At least 10 new businesses per day, more if the owner's usage limits aren't close.
+  - Until 2026-10-21, while the account is new, cap at 20 a day.
+  - After that, cap at 30 a day.
+  - Ramp up gradually. A new Gmail account that suddenly sends many cold emails gets flagged as spam, which would hurt every future send.
+- **Follow-ups.** One at most, no sooner than 7 days after the first email.
+- **Experiments.** Before each batch, get variant assignments from response-analyst and use exactly the wording or settings it assigns, as long as they pass your honesty rules. Reject any variant that is misleading.
 - Re-read every email against its site and `businesses.json` before sending.
 - Log every send with its Gmail message id.
 

@@ -6,6 +6,7 @@ A small agent team that finds local businesses with no website (or a broken one)
 - **boss**: lead and owner's point of contact. Picks businesses, approves work, handles outreach email.
 - **frontend-dev**: builds the preview cards and full concept sites.
 - **backend-dev**: server and data work.
+- **response-analyst**: tracks every variable of every email, runs A/B experiments to raise the reply rate, and writes the response analysis.
 - **qa**: fact-checks every claim against the research and tests sites before anything is sent.
 
 ## Workflow (preview-first)
